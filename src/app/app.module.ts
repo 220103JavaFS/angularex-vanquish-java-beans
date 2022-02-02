@@ -14,13 +14,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     AppComponent,
     EricComponent,
-<<<<<<< HEAD
-    EliasComponent
-    JustinComponent
-=======
+    EliasComponent,
     JustinComponent,
     NavbarComponent
->>>>>>> b3de7aa5164b23c8ac233dc679da72f144855a74
   ],
   imports: [
     BrowserModule,
