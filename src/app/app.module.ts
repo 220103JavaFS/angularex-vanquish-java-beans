@@ -11,6 +11,7 @@ import { JessieComponent } from './components/jessie/jessie.component';
 import { JustinComponent } from './components/justin/justin.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MarioComponent } from './components/mario/mario.component';
+import { DefaultComponent } from './components/default/default.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MarioComponent } from './components/mario/mario.component';
     JessieComponent,
     JustinComponent,
     MarioComponent,
-    NavbarComponent
+    NavbarComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,
