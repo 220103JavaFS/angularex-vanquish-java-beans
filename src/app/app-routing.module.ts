@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { EliasComponent } from './components/elias/elias.component';
 import { EricComponent } from './components/eric/eric.component';
+import { JessieComponent } from './components/jessie/jessie.component';
 
 const routes: Routes = [{
   path:"eric",
-  component:EricComponent,},
-
-  {path:"elias",
-  component:EliasComponent
-  
-}];
+  component:EricComponent
+}, {
+   path:"jessie",
+  component:JessieComponent
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
