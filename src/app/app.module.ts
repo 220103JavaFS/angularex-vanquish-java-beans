@@ -7,12 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { EricComponent } from './components/eric/eric.component';
 import { FormsModule } from '@angular/forms';
 import { JustinComponent } from './components/justin/justin.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EricComponent,
-    JustinComponent
+    JustinComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
