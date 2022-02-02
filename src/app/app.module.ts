@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { EricComponent } from './components/eric/eric.component';
 import { FormsModule } from '@angular/forms';
+import { EliasComponent } from './components/elias/elias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EricComponent
+    EricComponent,
+    EliasComponent
   ],
   imports: [
     BrowserModule,
