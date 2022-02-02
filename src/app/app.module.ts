@@ -10,6 +10,7 @@ import { EliasComponent } from './components/elias/elias.component';
 import { JessieComponent } from './components/jessie/jessie.component';
 import { JustinComponent } from './components/justin/justin.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { MarioComponent } from './components/mario/mario.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     EliasComponent,
     JessieComponent,
     JustinComponent,
+    MarioComponent,
     NavbarComponent
   ],
   imports: [
